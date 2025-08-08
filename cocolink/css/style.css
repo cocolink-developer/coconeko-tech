@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+html {
+    background-color: #6BB7FF;
+    font-family: "Zen Maru Gothic", sans-serif;
+}
+
+
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* header */
+
+header {
+    padding: 47px 0;
+    background-color: #1C375F;
+    margin-bottom: 39px;
+}
+
+.color {
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo img {
+    padding-right: 24px;
+}
+
+.logo span {
+    color: #46A591;
+}
+
+.header_menu li {
+    margin-left: 40px;
+}
+
+.header_menu li a:hover {
+    color: #46A591;
+    transition: .3s;
+}
+
+.header_menu li a {transition: .3s;}
+
+/* main */
+#hero {
+    background-image: url(../images/hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+
+.hero_inner {
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.hero_inner h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+
+
+/* コンセプト */
+#concept {
+    margin-bottom: 120px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1C375F;
+    margin-bottom: 23px;
+}
+
+#concept h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 23px;
+}
+
+.column-1 {
+    width: 50%;
+}
+
+.column-1 video {
+    margin-right: 0;
+    width: 300px;
+    height: auto;
+}
+
+
+#nuws {
+    margin-bottom: 120px;
+}
+
+#nuws dl {
+    max-width: 900px;
+    margin-left: auto;
+}
+
+#nuws dt {
+    width: 30%;
+    padding: 48px 0;
+    font-weight: 500;
+    border-bottom: solid 1px #1C375F;
+}
+
+#nuws dd {
+    width: 70%;
+    padding: 48px 0;
+    border-bottom: solid 1px #1C375F;
+}
+
+footer {
+    padding: 47px 0;
+    background-color: #1C375F;
+}
